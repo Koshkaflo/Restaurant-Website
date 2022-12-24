@@ -1,3 +1,2 @@
-# Git and GitHub course
+# Restorant website
 
-test test test
