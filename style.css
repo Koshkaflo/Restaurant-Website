@@ -7,9 +7,12 @@ body {
     background-repeat: no-repeat;
     height: 100vh;
     background-size: cover;
+ 
 }
 .container {
     margin: 0 166px;
+    
+
 }
 .header-line {
     padding-top: 50px;
@@ -69,5 +72,67 @@ body {
     transition: background-color 0.2s linear; 
 }
 .button:hover {
+    background-color: #bc5002;
+}
+.header-body {
+    position: relative;
+  
+}
+.header-title {
+    position: absolute;
+    color: #D67E35;
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    left: 50px;
+    margin-top: 204px;
+    
+}
+.header-subtitle {
+    color: #D67E35;
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-size: 80px;
+}
+.header-suptitle {
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.header-suptitle::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 61px;
+    background-color: #fff;
+    left: 335px;
+    top: 175px;
+}
+.header-suptitle::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 61px;
+    background-color: #fff;
+    left: 85px;
+    top: 175px;
+}
+.header-button {
+    background-color: #FF7400;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 14px 28px;
+    text-transform: uppercase;
+    transition: background-color 0.2s linear; 
+
+}
+.header-button:hover {
     background-color: #bc5002;
 }
