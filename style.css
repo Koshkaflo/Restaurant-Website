@@ -190,7 +190,7 @@ body {
     margin-bottom: 20px;
 }
 .story-title span {
-    color: #BC9060;
+    color: #D67E34;
 }
 .story-description {
     color: #656363;
@@ -250,7 +250,7 @@ body {
     background-image: url(bg2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 80px 20px 0 0;
+    padding: 80px 20px 80px 0;
     
 }
 .block-holder {
@@ -281,4 +281,35 @@ body {
 }
 .right-btn:hover {
     background-color: #bc5002;
+}
+
+.dishes-title {
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-size: 54px;
+    text-align: center;
+    padding-top: 132px;
+    margin-bottom: 139px;
+}
+.dishes-title span {
+    color: #D67E34;
+}
+
+.burgers {
+    display: flex;
+    justify-content: center;
+}
+.burger-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 29px;
+}
+.pizza-image {
+    margin-right: 30px;
+}
+.burger-text {
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-size: 26px;
+    margin-left: 30px;
 }
