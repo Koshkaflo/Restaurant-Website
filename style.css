@@ -10,7 +10,7 @@ body {
  
 }
 .container {
-    margin: 0 166px;
+    margin: 0 7%;
 
 }
 .header-line {
@@ -19,9 +19,7 @@ body {
     align-items: center;
     justify-content: space-between;
 }
-.nav {
-    margin-left: 268px;
-}
+
 .nav-item {
     color: #fff;
     text-decoration: none;
@@ -465,7 +463,7 @@ body {
 }
 .cooks-content {
     display: flex;
-    justify-content: space-evenly;s
+    justify-content: space-evenly;
 }
 
 .footer{
@@ -473,4 +471,92 @@ body {
     color: #fff;
     text-align: center;
     padding: 200px 0 50px;
+}
+
+
+@media (max-width: 1440px) {
+
+    .gallery-content {
+        display: block;
+        align-items: center;
+    }
+    .img-gal,
+    .gallery-up,
+    .gallery-down {
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+    .img-gal {
+        margin-bottom: 20px;
+    }
+    .gallery-left {
+        margin-right: 0;
+    }
+
+}
+
+@media (max-width: 1300px) {
+    .menu-items {
+        display: block;
+    }
+    .menu-item {
+        margin: 20px auto;
+        width: 390px;
+    }
+    .header-title {
+        position: static;
+    }
+    .header-suptitle::after,
+    .header-suptitle::before {
+        content: none;
+    }
+    .cooks-content {
+        display: block;
+    }
+    .cooks-content img {
+        display: block;
+        margin: 0 auto 30px auto;
+    }
+    .block-holder {
+        display: block;
+    }
+    .left,
+    .right {
+        text-align: center;
+    }
+    .right-button {
+        margin-top: 40px;
+    }
+    .story-holder {
+        display: block;
+    }
+    .story {
+        display: block; 
+    }
+    .story-images {
+        width: 100%;
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 400px;
+        position: relative;
+        
+    }
+    .image-1{
+        top: -50px;
+        left: 130px;
+    }
+    .image-2{
+        top: 75px;
+        left: 0px;
+    }
+    .image-3{
+        top: 235px;
+        left: 230px;
+    }
+    .story-title,
+    .story-description,
+    .story-numbers {
+        width: auto;
+    }
 }
