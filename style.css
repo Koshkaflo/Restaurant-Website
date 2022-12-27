@@ -423,3 +423,28 @@ body {
     font-weight: 400;
     font-size: 20px;
 }
+
+.gallery-title {
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-size: 54px;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 60px;
+}
+.gallery-title span{
+    color: #D67E34;
+}
+.gallery-content {
+    display: flex;
+    justify-content: center;
+}
+.gallery-left {
+    margin-right: 30px;
+}
+.gallery-down,
+.gallery-up {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
