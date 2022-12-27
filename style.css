@@ -313,3 +313,81 @@ body {
     font-size: 26px;
     margin-left: 30px;
 }
+
+.menu {
+    background-image: url(menubg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 226px;
+
+}
+.menu-title {
+    color: #fff;
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-size: 54px;
+    padding-top: 100px;
+    padding-bottom: 138px;
+    text-align: center;
+}
+.menu-item {
+    background-color: #fff;
+    text-align: center;
+    width: 30%;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    position: relative;
+}
+.menu-text {
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-size: 26px;
+    padding-top: 22px;
+    padding-bottom: 17px;
+}
+.menu-suptext {
+    font-weight: 400;
+    font-size: 16px; 
+}
+.menu-btn {
+    background-color: #D67E34;
+    text-decoration: none;
+    padding: 14px 57px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    box-shadow: 5px 5px 10px 0px #00000040;
+
+}
+.menu-button {
+    margin-top: 20px;
+}
+.price-img {
+    position: absolute;
+    bottom: 0;
+    right: 58px;
+}
+.price-420 {
+    position: absolute;
+    bottom: 30px;
+    right: 85px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 30px
+
+}
+.menu-image {
+    position: relative;
+}
+.menu-items {
+    display: flex;
+    justify-content: space-between;
+}
+.recommend {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #D67E34;
+    padding: 9px 12px;
+}
