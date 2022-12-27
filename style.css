@@ -74,9 +74,12 @@ body {
 .button:hover {
     background-color: #bc5002;
 }
+.burger-menu {
+    display: none;
+}
+
 .header-body {
     position: relative;
-  
 }
 .header-title {
     position: absolute;
@@ -535,11 +538,7 @@ body {
         display: block; 
     }
     .story-images {
-        width: 100%;
-        text-align: center;
-        margin-top: 100px;
-        margin-bottom: 400px;
-        position: relative;
+        display: none;
         
     }
     .image-1{
@@ -548,11 +547,11 @@ body {
     }
     .image-2{
         top: 75px;
-        left: 0px;
+        left: -40px;
     }
     .image-3{
         top: 235px;
-        left: 230px;
+        left: 190px;
     }
     .story-title,
     .story-description,
@@ -560,3 +559,109 @@ body {
         width: auto;
     }
 }
+
+@media (max-width:1185px) {
+    .burger-menu {
+        display: block;
+    }
+    .nav,
+    .cart,
+    .phone,
+    .btn {
+        display: none;
+    }
+    .glas {
+        width: 255px;
+    }
+    .pizza {
+        display: none;
+    }
+
+}
+
+@media (max-width: 1111px) {
+    .cards-holder {
+        display: block;
+    }
+    .card {
+        width: auto;
+        margin-top: 30px;
+        margin-right: 0;
+        padding-bottom: 30px;
+    }
+    .testimonial-text {
+        width: auto;
+    }
+    .header-title {
+        margin-top: 100px;
+    }
+}
+
+
+@media (max-width: 780px) {
+.container {
+    margin: auto 20px;
+}
+.cards-holder {
+    display: block;
+    
+}
+.card {
+    width: auto;
+    margin-top: 30px;
+    margin-right: 0;
+    padding-bottom: 30px;
+}
+.header-title {
+    margin-top: 100px;
+}
+}
+
+
+@media (max-width:440px) {
+    .menu-item {
+        margin: 20px auto;
+        width: auto;
+    }
+    .menu-title,
+    .testimonials {
+        padding-bottom: 70px;
+        padding-top: 60px;
+    }
+    .dishes-title,
+    .gallery-title {
+        margin-bottom: 70px;
+        padding-top: 60px;
+    }
+    .cooks-title {
+        margin-bottom: 70px;
+        margin-top: 60px;
+    }
+    .header-title {
+        margin-top: 150px;
+    }
+    .story {
+        margin-top: 60px;
+        padding-bottom: 70px;
+    }
+    .header-title {
+        font-size: 30px;
+    }
+    .header-subtitle {
+        font-size: 45px;
+    }
+    .header-suptitle {
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+    .story-title,
+    .left-title,
+    .dishes-title,
+    .menu-title,
+    .gallery-title,
+    .cooks-title {
+        font-size: 40px;
+    }
+
+}
+
