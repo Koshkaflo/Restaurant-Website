@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Tinos&family=Unbounded:wght@300&display=swap" rel="stylesheet">
     <title>Ресторан</title>
 </head>
+
 <body>
 
     <div class="header">
@@ -47,7 +48,15 @@
                     <a class="button" href="#">ЗАКАЗ СТОЛИКА</a>
                 </div>
                 <div class="burger-menu">
-                    <a href="#"> <img src="burger-menu.png" alt="burger-menu"></a>
+                    <button id="burger"> 
+                        <img src="burger-menu.png" alt="burger-menu">
+                    </button>
+                    <div id="menu" class="burger-slide disp">
+                        <a class="nav-item block" href="#">Главная</a>
+                        <a class="nav-item block" href="#">Меню</a>
+                        <a class="nav-item block" href="#">О нас</a>
+                        <a class="nav-item block" href="#">Бронь</a>
+                    </div>
                 </div>
             </div>
 
@@ -288,7 +297,8 @@
                 Copyright 2022
             </div>
         </div>
-
     </div>
+
+    <script src="app.js"></script>
 </body>
 </html>

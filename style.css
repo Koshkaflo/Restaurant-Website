@@ -72,12 +72,28 @@ body {
     transition: background-color 0.2s linear; 
 }
 .button:hover {
-    background-color: #bc5002;
+    background-color: rgb(188, 80, 2);
+}
+
+button {
+    border: none;
+    outline: none;
+    background-color: transparent;
 }
 .burger-menu {
     display: none;
 }
+.block {
+    display: block;
+    padding-top: 15px;
+}
+.burger-slide {
+    position: absolute;
 
+}
+.disp {
+    display: none;
+}
 .header-body {
     position: relative;
 }
