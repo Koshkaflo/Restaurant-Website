@@ -246,6 +246,9 @@ body {
     top: 235px;
     left: 330px;
 }
+.story-img-pack {
+    display: none;
+}
 
 .black-block {
     background-image: url(bg2.jpg);
@@ -538,8 +541,16 @@ body {
         display: block; 
     }
     .story-images {
-        display: none;
-        
+        display: none; 
+    }
+    .story-img-pack {
+        display: block;
+    }
+    .img-pack {
+        display: block;
+        text-align: center;
+        width: auto;
+        margin: 60px auto 0;
     }
     .image-1{
         top: -50px;
@@ -575,6 +586,9 @@ body {
     }
     .pizza {
         display: none;
+    }
+    .header-title {
+        margin-top: 150px;
     }
 
 }
@@ -615,8 +629,19 @@ body {
 .header-title {
     margin-top: 100px;
 }
+.img-pack {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: 60px auto 0;
 }
-
+.img-cook {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: 30px auto 0;
+}
+}
 
 @media (max-width:440px) {
     .menu-item {
